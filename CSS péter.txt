@@ -1,0 +1,256 @@
+}
+    
+/* Header */
+
+header {
+    
+    display:flex;
+    height: 6rem;  
+}
+
+header img {
+    margin-left:3rem;
+    margin-top: 1rem;
+    height: 150px;
+    width: 150px;    
+}
+
+header nav li {
+    display: inline;
+    list-style: none; 
+}
+
+nav {
+    text-align: center;
+    margin-top: auto;
+    margin-left: 20%;
+}
+
+header nav li a {
+    font-family:"Roboto-Bold";
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+
+header .btn {
+    border-left: black solid;
+}
+
+/* Main */
+
+/* notre vision bandeau*/
+
+main .notre-vision {
+    
+    background-size: cover;
+    background-image: url(../img/image\ header.jpg);
+    height: 30rem;
+
+}
+
+main .notre-vision h1 { 
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 5rem;
+    width: 60rem;
+    font-family: Roboto-Bold; 
+
+}
+
+main .notre-vision a {
+    display: flex;
+    justify-content:center; 
+    font-size: 30px;
+    font-family: Roboto-Bold;
+    text-decoration: none;
+    color: white; 
+    padding: 20px;
+    text-align: center; 
+    background-color:deeppink;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+/* notre approche */
+.notre-approche h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+.notre-approche {
+    font-family: Roboto-Regular;
+    text-align: center;
+    font-size: 2rem;
+}
+
+main img {
+    margin-left: 20px;
+    width:40rem;
+    height: 25rem;
+}
+
+.container {
+    font-family: Roboto-Regular;
+    display:flex;
+    justify-content: space-evenly; 
+}
+.container li {
+    list-style: none;
+    text-align: left;
+}
+.container ul {
+    margin-top: 0;
+    font-size:150%;
+}
+
+/* La Methode Pep's est faite pour vous */
+.ligne-verte img {
+    width: 400px;
+    height: 20px;
+   margin-left: 40%;
+   margin-right: 40%;
+}
+.la-methode-peps {
+    text-align: center;
+    font-family: Roboto-Regular;
+    font-size: 2rem;
+}
+.la-methode-peps h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+.la-methode-peps a {
+    display: flex;
+    justify-content:center; 
+    font-size: 30px;
+    font-family: Roboto-Bold;
+    text-decoration: none;
+    color: deeppink;
+    border: solid; 
+    padding: 20px;
+    text-align: center; 
+    border-radius: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+/* Principes Pep's */
+
+.principes1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-right: 30%;
+}
+.principes1 img {
+    margin-left:25%;
+    margin-right: 25%;
+    height: 5rem;
+    width: 5rem;
+}
+.principes1 h3 {
+    font-family: Roboto-Regular;
+    text-align: center;
+    width: 20rem;
+    margin-right: 150px;
+}
+.principes1 p {
+    font-family: Roboto-Regular;
+    font-size: 1rem;
+    margin-right: 150px;
+}
+/* Nos Accompagnements */
+
+.nos-accompagnements {
+    font-family: Roboto-Regular;
+    text-align: center;
+}
+
+
+
+.principes2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-right: 30%;
+}
+.principes2 img {
+    margin-left:25%;
+    margin-right: 25%;
+    height: 5rem;
+    width: 5rem;
+}
+.principes2 h3 {
+    font-family: Roboto-Regular;
+    text-align: center;
+    width: 20rem;
+    margin-right: 150px;
+}
+.principes2 p {
+    font-family: Roboto-Regular;
+    font-size: 1rem;
+    margin-right: 150px;
+}
+/* Nos Accompagnements */
+
+.nos-accompagnements {
+    font-family: Roboto-Regular;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+.nos-accompagnements h2 {
+    font-family: Roboto-Bold;
+    font-size:xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    display:flex;
+    font-family: Roboto-Regular;
+    background-color: gainsboro;
+    
+}
+footer logo-footer {
+    display: flexbox;
+    margin-left: 50px;
+    
+}
+footer .contact {
+    
+   display:contents;
+    text-align:left;
+    justify-content: right;
+}
+.cgv ul a {
+    border-left: solid black;
+    margin-top: 10px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    display:flex;
+}
+.cgv {
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
